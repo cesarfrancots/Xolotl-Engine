@@ -1,0 +1,60 @@
+{
+  "name": "Locked Exit Decoy",
+  "tileSize": 32,
+  "world": {
+    "width": 5,
+    "height": 3,
+    "background": "#121417"
+  },
+  "entities": [
+    {
+      "id": "player",
+      "kind": "player",
+      "x": 1,
+      "y": 1,
+      "w": 0.8,
+      "h": 0.8,
+      "speed": 4,
+      "color": "#78dce8"
+    },
+    {
+      "id": "a_decoy",
+      "kind": "collectible",
+      "x": 4,
+      "y": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "value": 5,
+      "color": "#ffd166"
+    },
+    {
+      "id": "coin",
+      "kind": "collectible",
+      "x": 1,
+      "y": 2,
+      "w": 0.5,
+      "h": 0.5,
+      "value": 5,
+      "color": "#ffd166"
+    },
+    {
+      "id": "exit",
+      "kind": "goal",
+      "x": 2,
+      "y": 1,
+      "w": 1,
+      "h": 1,
+      "requiresScore": 5,
+      "color": "#a9dc76"
+    },
+    {
+      "id": "wall",
+      "kind": "solid",
+      "x": 3,
+      "y": 0,
+      "w": 1,
+      "h": 3,
+      "color": "#fc9867"
+    }
+  ]
+}

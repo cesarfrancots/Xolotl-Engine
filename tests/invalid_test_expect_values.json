@@ -1,0 +1,27 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "",
+    "tick": 1.5,
+    "messages": "Reached exit",
+    "validationErrors": "entities[0].x must be >= 0",
+    "entities": {
+      "player": {
+        "positon": 1
+      }
+    },
+    "testErrors": [
+      "expect.status must be one of playing, won, lost",
+      "expect.tick must be a non-negative integer",
+      "expect.messages must be an array",
+      "expect.validationErrors must be an array",
+      "expect.entities.player.positon is unknown"
+    ]
+  }
+}

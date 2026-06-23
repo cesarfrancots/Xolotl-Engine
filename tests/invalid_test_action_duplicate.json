@@ -1,0 +1,9 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    { "actions": ["right", "right"], "frames": 4 }
+  ],
+  "expect": {
+    "testErrors": ["steps[0].actions[1] duplicates right"]
+  }
+}

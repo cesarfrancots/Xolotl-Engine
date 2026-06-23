@@ -1,0 +1,12 @@
+{
+  "scene": "scenes/level_01.json",
+  "stepps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "testErrors": ["test.stepps is unknown"]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    ["right"]
+  ],
+  "expect": {
+    "testErrors": ["steps[0] must be an object"]
+  }
+}

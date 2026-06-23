@@ -1,0 +1,18 @@
+{
+  "scene": {
+    "name": "Invalid Shape Fixture",
+    "tileSize": 32,
+    "world": "wide",
+    "entities": {
+      "player": {
+        "id": "player"
+      }
+    }
+  },
+  "expect": {
+    "validationErrors": [
+      "scene.world must be an object",
+      "scene.entities must be an array"
+    ]
+  }
+}

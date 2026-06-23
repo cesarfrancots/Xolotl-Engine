@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "testErrors": ["scene is required"]
+  }
+}

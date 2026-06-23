@@ -1,0 +1,19 @@
+{
+  "scene": "scenes/goal_priority.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "won",
+    "tick": 4,
+    "messages": ["Reached early_exit"],
+    "entities": {
+      "locked_exit": {
+        "locked": true
+      }
+    }
+  }
+}

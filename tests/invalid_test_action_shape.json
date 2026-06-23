@@ -1,0 +1,13 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "action": "left",
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "testErrors": ["steps[0] cannot use both action and actions"]
+  }
+}

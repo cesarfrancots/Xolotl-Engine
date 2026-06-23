@@ -1,0 +1,25 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "entities": {
+      "player": {
+        "kind": 1,
+        "x": "1"
+      },
+      "exit": {
+        "locked": "false"
+      }
+    },
+    "testErrors": [
+      "expect.entities.player.kind must be a string",
+      "expect.entities.player.x must be a number",
+      "expect.entities.exit.locked must be a boolean"
+    ]
+  }
+}

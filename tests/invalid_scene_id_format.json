@@ -1,0 +1,35 @@
+{
+  "scene": {
+    "name": "Invalid Id Format",
+    "tileSize": 32,
+    "world": {
+      "width": 4,
+      "height": 3,
+      "background": "#121417"
+    },
+    "entities": [
+      {
+        "id": "bad id",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 0.8,
+        "h": 0.8,
+        "speed": 4,
+        "color": "#78dce8"
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 2,
+        "y": 1,
+        "w": 1,
+        "h": 1,
+        "color": "#a9dc76"
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": ["entities[0].id must use only letters, numbers, _, or -"]
+  }
+}

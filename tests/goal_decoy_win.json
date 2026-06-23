@@ -1,0 +1,14 @@
+{
+  "scene": "scenes/goal_decoy.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "won",
+    "tick": 4,
+    "messages": ["Reached exit"]
+  }
+}

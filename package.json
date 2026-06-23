@@ -6,15 +6,15 @@
   "scripts": {
     "describe": "node bin/engine.js describe",
     "schema": "node bin/engine.js schema",
-    "template": "node bin/engine.js template scene",
+    "template": "node bin/engine.js template",
     "catalog": "node bin/engine.js catalog",
     "verify": "node bin/engine.js verify",
     "solve": "node bin/engine.js solve",
     "check": "node bin/engine.js check",
-    "test": "node bin/engine.js test",
+    "test": "node bin/engine.js test && node tests/cli_simulate_default_steps.mjs && node tests/cli_run_server_surface.mjs",
     "trace": "node bin/engine.js trace",
-    "simulate": "node bin/engine.js simulate scenes/level_01.json",
-    "dump-state": "node bin/engine.js dump-state scenes/level_01.json",
-    "run": "node bin/engine.js run scenes/level_01.json"
+    "simulate": "node bin/engine.js simulate",
+    "dump-state": "node bin/engine.js dump-state",
+    "run": "node bin/engine.js run"
   }
 }

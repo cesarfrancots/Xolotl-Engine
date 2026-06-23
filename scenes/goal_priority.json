@@ -1,0 +1,50 @@
+{
+  "name": "Goal Priority",
+  "tileSize": 32,
+  "world": {
+    "width": 6,
+    "height": 4,
+    "background": "#121417"
+  },
+  "entities": [
+    {
+      "id": "player",
+      "kind": "player",
+      "x": 1,
+      "y": 1,
+      "w": 0.8,
+      "h": 0.8,
+      "speed": 4,
+      "color": "#78dce8"
+    },
+    {
+      "id": "locked_exit",
+      "kind": "goal",
+      "x": 4,
+      "y": 1,
+      "w": 1,
+      "h": 1,
+      "requiresScore": 5,
+      "color": "#a9dc76"
+    },
+    {
+      "id": "early_exit",
+      "kind": "goal",
+      "x": 2,
+      "y": 1,
+      "w": 1,
+      "h": 1,
+      "color": "#a9dc76"
+    },
+    {
+      "id": "coin",
+      "kind": "collectible",
+      "x": 4,
+      "y": 2,
+      "w": 0.5,
+      "h": 0.5,
+      "value": 5,
+      "color": "#ffd166"
+    }
+  ]
+}

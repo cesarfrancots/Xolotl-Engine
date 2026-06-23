@@ -1,0 +1,12 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "action": "rigth",
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "testErrors": ["steps[0].action must be one of left, right, up, down"]
+  }
+}

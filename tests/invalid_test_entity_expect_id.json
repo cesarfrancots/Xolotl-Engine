@@ -1,0 +1,11 @@
+{
+  "scene": "scenes/level_01.json",
+  "expect": {
+    "entities": {
+      "bad id": {
+        "kind": "player"
+      }
+    },
+    "testErrors": ["expect.entities[\"bad id\"] must use only letters, numbers, _, or -"]
+  }
+}

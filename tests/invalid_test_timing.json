@@ -1,0 +1,17 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 0,
+      "seconds": -1
+    }
+  ],
+  "expect": {
+    "testErrors": [
+      "steps[0].frames must be a positive integer",
+      "steps[0].seconds must be >= 0",
+      "steps[0] cannot use both frames and seconds"
+    ]
+  }
+}

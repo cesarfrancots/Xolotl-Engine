@@ -1,0 +1,46 @@
+{
+  "scene": {
+    "name": "Invalid Kind Fields",
+    "tileSize": 32,
+    "world": {
+      "width": 5,
+      "height": 4
+    },
+    "entities": [
+      {
+        "id": "player",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 1,
+        "h": 1,
+        "requiresScore": 1
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 3,
+        "y": 1,
+        "w": 1,
+        "h": 1,
+        "value": 5
+      },
+      {
+        "id": "block",
+        "kind": "solid",
+        "x": 1,
+        "y": 3,
+        "w": 1,
+        "h": 1,
+        "speed": 2
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": [
+      "entities[0].requiresScore is only valid on goal",
+      "entities[1].value is only valid on collectible",
+      "entities[2].speed is only valid on player"
+    ]
+  }
+}

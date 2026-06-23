@@ -1,0 +1,19 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"]
+    }
+  ],
+  "expect": {
+    "status": "playing",
+    "tick": 1,
+    "tolerance": 1e-9,
+    "entities": {
+      "player": {
+        "x": 1.0666666666666667,
+        "y": 1
+      }
+    }
+  }
+}

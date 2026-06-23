@@ -1,0 +1,12 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actoin": "right",
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "testErrors": ["steps[0].actoin is unknown"]
+  }
+}

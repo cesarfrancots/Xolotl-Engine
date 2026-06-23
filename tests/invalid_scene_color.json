@@ -1,0 +1,36 @@
+{
+  "scene": {
+    "name": "Invalid Color",
+    "tileSize": 32,
+    "world": {
+      "width": 4,
+      "height": 4,
+      "background": 7
+    },
+    "entities": [
+      {
+        "id": "player",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 1,
+        "h": 1,
+        "color": 9
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 3,
+        "y": 3,
+        "w": 1,
+        "h": 1
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": [
+      "scene.world.background must be a string",
+      "entities[0].color must be a string"
+    ]
+  }
+}

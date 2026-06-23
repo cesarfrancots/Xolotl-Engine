@@ -1,0 +1,7 @@
+{
+  "scene": "scenes/level_01.json",
+  "expect": {
+    "validationErrors": ["entities[0].x must be >= 0"],
+    "testErrors": ["expect cannot use both validationErrors and testErrors"]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "scene": "scenes/level_01.json",
+  "expect": {
+    "validationErrors": [],
+    "testErrors": ["expect.validationErrors must contain at least one string"]
+  }
+}
