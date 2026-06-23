@@ -1,0 +1,20 @@
+{
+  "name": "agentic-game-engine",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "describe": "node bin/engine.js describe",
+    "schema": "node bin/engine.js schema",
+    "template": "node bin/engine.js template scene",
+    "catalog": "node bin/engine.js catalog",
+    "verify": "node bin/engine.js verify",
+    "solve": "node bin/engine.js solve",
+    "check": "node bin/engine.js check",
+    "test": "node bin/engine.js test",
+    "trace": "node bin/engine.js trace",
+    "simulate": "node bin/engine.js simulate scenes/level_01.json",
+    "dump-state": "node bin/engine.js dump-state scenes/level_01.json",
+    "run": "node bin/engine.js run scenes/level_01.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "scene": "scenes/locked_exit.json",
+  "steps": [
+    {
+      "actions": ["down"],
+      "frames": 4
+    },
+    {
+      "actions": ["up"],
+      "frames": 4
+    },
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "won",
+    "tick": 12,
+    "score": 5,
+    "messages": ["Collected coin", "Reached exit"],
+    "entities": {
+      "coin": {
+        "collected": true
+      },
+      "exit": {
+        "locked": false
+      }
+    }
+  }
+}

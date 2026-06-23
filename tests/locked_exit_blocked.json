@@ -1,0 +1,20 @@
+{
+  "scene": "scenes/locked_exit.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "playing",
+    "tick": 4,
+    "score": 0,
+    "messages": ["Need score 5 for exit"],
+    "entities": {
+      "exit": {
+        "locked": true
+      }
+    }
+  }
+}

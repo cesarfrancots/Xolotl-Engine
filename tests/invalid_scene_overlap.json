@@ -1,0 +1,39 @@
+{
+  "scene": {
+    "name": "Invalid Overlap",
+    "tileSize": 32,
+    "world": {
+      "width": 6,
+      "height": 4
+    },
+    "entities": [
+      {
+        "id": "player",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 1,
+        "h": 1
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 4,
+        "y": 2,
+        "w": 1,
+        "h": 1
+      },
+      {
+        "id": "block",
+        "kind": "solid",
+        "x": 1,
+        "y": 1,
+        "w": 1,
+        "h": 1
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": ["entities[0] overlaps solid block"]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "scene": {
+    "name": "Invalid Speed",
+    "tileSize": 32,
+    "world": {
+      "width": 4,
+      "height": 4
+    },
+    "entities": [
+      {
+        "id": "player",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 1,
+        "h": 1,
+        "speed": 0
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 3,
+        "y": 3,
+        "w": 1,
+        "h": 1
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": ["entities[0].speed must be > 0"]
+  }
+}

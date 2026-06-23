@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agentic Game Engine</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/web/style.css">
+  </head>
+  <body>
+    <main>
+      <canvas id="game" width="640" height="384" aria-label="Playable game canvas"></canvas>
+      <section id="hud" aria-live="polite">
+        <strong id="status">playing</strong>
+        <span id="scene"></span>
+        <span id="score">Score 0</span>
+        <button id="reset" type="button">Reset</button>
+      </section>
+    </main>
+    <script type="module" src="/web/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "scene": {
+    "name": "Invalid Required Score",
+    "tileSize": 32,
+    "world": {
+      "width": 4,
+      "height": 3
+    },
+    "entities": [
+      {
+        "id": "player",
+        "kind": "player",
+        "x": 1,
+        "y": 1,
+        "w": 0.8,
+        "h": 0.8
+      },
+      {
+        "id": "exit",
+        "kind": "goal",
+        "x": 2,
+        "y": 1,
+        "w": 0.8,
+        "h": 0.8,
+        "requiresScore": -1
+      }
+    ]
+  },
+  "expect": {
+    "validationErrors": ["entities[1].requiresScore must be >= 0"]
+  }
+}

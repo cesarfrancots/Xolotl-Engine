@@ -1,0 +1,25 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 240
+    },
+    {
+      "actions": ["down"],
+      "frames": 120
+    }
+  ],
+  "expect": {
+    "status": "won",
+    "tick": 349,
+    "tolerance": 0.000001,
+    "messages": ["Reached exit"],
+    "entities": {
+      "player": {
+        "x": 17,
+        "y": 8.266667
+      }
+    }
+  }
+}

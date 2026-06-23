@@ -1,0 +1,14 @@
+{
+  "scene": "scenes/hazard_lane.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "lost",
+    "tick": 4,
+    "messages": ["Hit spikes"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scene": "scenes/coin_room.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 4
+    }
+  ],
+  "expect": {
+    "status": "playing",
+    "tick": 4,
+    "score": 5,
+    "messages": ["Collected coin"],
+    "entities": {
+      "coin": {
+        "collected": true
+      }
+    }
+  }
+}

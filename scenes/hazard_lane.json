@@ -1,0 +1,39 @@
+{
+  "name": "Hazard Lane",
+  "tileSize": 32,
+  "world": {
+    "width": 6,
+    "height": 4,
+    "background": "#121417"
+  },
+  "entities": [
+    {
+      "id": "player",
+      "kind": "player",
+      "x": 1,
+      "y": 1,
+      "w": 0.8,
+      "h": 0.8,
+      "speed": 4,
+      "color": "#78dce8"
+    },
+    {
+      "id": "exit",
+      "kind": "goal",
+      "x": 4,
+      "y": 1,
+      "w": 1,
+      "h": 1,
+      "color": "#a9dc76"
+    },
+    {
+      "id": "spikes",
+      "kind": "hazard",
+      "x": 2,
+      "y": 1,
+      "w": 1,
+      "h": 0.8,
+      "color": "#ff5c7a"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scene": "scenes/level_01.json",
+  "steps": [
+    {
+      "actions": ["right"],
+      "frames": 66
+    },
+    {
+      "actions": ["down"],
+      "frames": 120
+    }
+  ],
+  "expect": {
+    "status": "playing",
+    "tick": 186,
+    "entities": {
+      "player": {
+        "x": 5.4,
+        "y": 2.2
+      }
+    }
+  }
+}
